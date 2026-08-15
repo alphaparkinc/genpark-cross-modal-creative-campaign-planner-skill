@@ -1,0 +1,35 @@
+{
+  "name": "genpark-cross-modal-creative-campaign-planner-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Cross-modal brand visual identity, multi-platform ad campaign brief & asset matrix planner.",
+  "author": "genpark",
+  "category": "content",
+  "tags": [
+    "creative-campaign",
+    "brand-identity",
+    "asset-matrix",
+    "campaign-planner",
+    "ph-august-top"
+  ],
+  "inputs": {
+    "brand_guidelines": {
+      "type": "object"
+    },
+    "target_audiences": {
+      "type": "array"
+    }
+  },
+  "outputs": {
+    "asset_matrix_grid": {
+      "type": "object"
+    },
+    "creative_concepts": {
+      "type": "array"
+    },
+    "campaign_readiness_score": {
+      "type": "number"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
